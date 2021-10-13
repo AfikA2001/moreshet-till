@@ -7,24 +7,25 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-	<meta name="author" content="Afik Ankri">
+	<meta name="author" content="Afik Ankri, DorSagiv">
 	<style>
 		body{font-family: 'Rubik', sans-serif;margin: 0;padding: 0;border: 0;}
-		.mainbg{background-image:url('mainbg.png');height: 30vh;color: #ffffff;background-position:top center;display: table;width: 100%;background-size: cover;background-repeat: no-repeat;}
+		.mainbg{background-image:url('./headerbg.png');height: 50vh;color: #ffffff;background-position:top center;display: table;width: 100%;background-size: cover;background-repeat: no-repeat;}
 		.par-inner{text-align:right;margin:4rem 0;}
 		.first-p{color:#1D1D1D;}
-		.first-p p {font-size:50px;font-weight:500}
+		.first-p p {font-size:45px;font-weight:400}
 		.first-p h1 {font-size:55px;font-weight: bold}
 		.par-inner p {font-size: 40px;font-weight:500;color:#1D1D1D;}
 		.par-inner h1 {font-size: 45px;font-weight: bold;color:#1D1D1D;}
 		hr{border: 2px solid #1D1D1D;width: 65px;opacity: 100%;margin: 1.2rem auto;}
+		/*.par-inner::before {content: '';width: 10px;height: 90px;background: #1D1D1D;}*/
 		.mainbg h1 {font-size: 45px;font-weight: 700;}
-		.stickyb{background-color:#F0F0F0;height:13vh;padding: 2.5rem;}
+		.stickyb{background-color:#F0F0F0;padding: 2.5rem;}
 		.stickyb h3 { display: inline-block; color: #1D1D1D; font-size: 45px; font-weight: 700; margin-right: 1rem; margin-bottom:0;}
 		.stickyb img { width: 9rem; }
-		.bible {font-family: 'Secular One', sans-serif;font-size: 65px !important;}
-		.block{display: table-cell;vertical-align: middle;}
-		.f-bold{font-weight: bold;}
+		.bible {font-family: 'Secular One', sans-serif;font-size: 65px !important;color: #ffe37c;}
+		.block{display: table-cell;vertical-align: top;}
+		.f-bold, .bold{font-weight: bold;}
 		.list-text{font-size:45px;}
 	</style>
 	<meta charset="utf-8">
@@ -32,34 +33,52 @@
 <body>
 	<div class="mainbg text-center">
 		<div class="container block">
-			<h1 class=" px-5">טקס חנוכת</h1>
-			<br>
-			<h1 class="bible">"דמותם לנגד עיניי"</h1>
-			<br>
+			<h1 class="bible" style="padding-top: 9rem;">"דמותם לנגד עיניי"</h1>
 			<h1>המרכז החינוכי להנחלת זיכרון השואה והגבורה</h1>
-			<br>
 			<h1>בקריית ההדרכה של צה"ל בנגב</h1>
 		</div>
 	</div>
 	<div class="inner-content">
 		<div class="first-p text-right">
-			<h1 style="background:url('./label-3.svg');margin:0;background-repeat: no-repeat;background-position: right;color:#ffffff;padding: 2.7vh;font-size: 5rem;">הנכם מוזמנים</h1>
-			<p style="background:url('./label-2.svg');margin:0;background-repeat: no-repeat;background-position: right;color:#ffffff;padding: 2.7vh;">לאירוע פתיחת שלוחת יד ושם<br>בקריית ההדרכה של צה"ל בנגב</p>
-			<p style="background:url('./label-3.svg');margin:0;background-repeat: no-repeat;background-position: right;color:#ffffff;padding: 1.4vh;">יום ג' כ"ז בחשון התשפ"ב<br>02.11.2021</p>
+			<h1 style="background:url('./fir.svg');padding: 1vh 4vw; margin: 0 0 0 3rem;background-repeat: no-repeat;background-position: right;color:#ffffff;font-size: 5rem;background-size: contain;">הנכם מוזמנים</h1>
+			<p style="background: url(./sec.svg); margin: 1vh 0 12vh 27vw; background-repeat: no-repeat; background-position: right; color: #ffffff; font-weight: 500 !important; font-size: 38px !important; padding: 3vh 2rem; background-size: contain;">לאירוע חנוכת המרכז החינוכי
+				<br>
+				להנחלת זיכרון השואה והגבורה</p>
 			<br>
-			<p class="p-3 text-center m-0">האירוע יתקיים בראשות:<br>ר. אט"ל האלוף  איציק תורג'מן<br>יו"ר יד ושם מר דני דיין</p>
+			<div class="position-absolute d-flex" style="flex-direction: column;align-items: center;left:6vw;bottom:14vh;">
+				<span class="" style="font-size:3rem;font-weight:700;">ללוח הזמנים</span>
+				<a href="#sec-2"><img src="./arrow.svg" alt="arrow" style="width:6rem;"></a>
+			</div>
 		</div>
-		<div class="par-main p-5">
+	</div>
+	<div style="background-image: url('./bg-sec-2.png');background-size: cover;" id="sec-2">
+		<div style="background:url('./thir.svg');margin: 0 0 0 3rem;background-repeat: no-repeat;background-position: right;color:#ffffff;padding: 1.2vh 2rem;background-size: contain;font-size: 3rem;"><span style="font-size: 3.5rem;font-weight: bold;margin: 0 0 0 1rem;">02.11.21</span>יום ג' כ"ז בחשוון התשפ"ב</div>
+		<div style="background: url(./fort.svg); margin: 2rem 0 0 15rem; background-repeat: no-repeat; background-position: right; color: #ffffff; padding: 1.3vh 2rem; background-size: contain; font-size: 3.5rem;">קריית ההדרכה</div>
+		<div style="font-size: 3rem;color: #0A2F3E !important;">
+			<p class="p-3 text-center mt-5 bold">
+				הנני מתכבד להזמינך
+				<br>
+				לאירוע חנוכת המרכז החינוכי
+				<br>
+				להנחלת זיכרון השואה והגבורה
+				<br>בקריית ההדרכה של צה"ל בנגב</p>
+				<p class="p-3 text-center m-0">האירוע יתקיים במעמד<br>ראש אט"ל האלוף איציק תורג'מן<br>יו"ר יד ושם מר דני דיין</p>
+		</div>
+		<div class="par-main p-5" style="color: #0A2F3E !important;">
 			<ul class="text-right">
-				<li class="list-text"><span class="f-bold mx-3">9:30-10:20</span>התכנסות וא.בוקר</li>
-				<li class="list-text"><span class="f-bold mx-3">10:30-10:50</span>גזירת סרט והתקנת מזוזה</li>
-				<li class="list-text"><span class="f-bold mx-3">10:50-11:50</span>סיור מודרך</li>
-				<li class="list-text"><span class="f-bold mx-3">11:50-11:55</span>התכנסות וישיבה במרכז המורשת</li>
-				<li class="list-text"><span class="f-bold mx-3">11:55-12:25</span>מסכת ברכות</li>
-				<li class="list-text"><span class="f-bold mx-3">12:25-12:45</span>הצגת מרכז מורשת צה"ל</li>
-				<li class="list-text"><span class="f-bold mx-3">12:45-13:15</span>הרמת כוסית</li>
-				<li class="list-text"><span class="f-bold mx-3">13:15</span>סיום משוער</li>
+				<li class="list-text"><span class="f-bold mx-3">09:30-10:20</span>התכנסות וכיבוד קל</li>
+				<li class="list-text"><span class="f-bold mx-3">10:30-10:50</span>טקס חנוכה והסרת הלוט</li>
+				<li class="list-text"><span class="f-bold mx-3">10:50-11:50</span>סיור מודרך במרכז החינוכי</li>
+				<li class="list-text"><span class="f-bold mx-3">11:50-12:25</span>דברי ברכה</li>
+				<li class="list-text"><span class="f-bold mx-3">12:25-12:45</span>הצגת מרכז המורשת העתידי</li>
+				<li class="list-text"><span class="f-bold mx-3">12:45-13:30</span>ארוחת צוהריים חגיגית</li>
+				<li class="list-text"><span class="f-bold mx-3">13:30</span>סיום משוער</li>
 			</ul>
+			<p style="font-size: 2.5rem; text-align:left;">
+				<span class="bold">חי כפיר מגנאזי,</span> אל"ם
+				<br>
+				<span class="bold">מפקד קריית ההדרכה</span>
+			</p>
 		</div>
 		<div class="par-inner text-center" style="margin-bottom:15rem;color: #dfdfdf;">
 			<h4>מדור טי"ל 2021</h4>
